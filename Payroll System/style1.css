@@ -1,0 +1,25 @@
+body {
+	background-color: rgb(223,221,224);
+	background-position: center;
+}
+
+div#left {
+	float: left;
+	width: 15%;	
+}
+
+div#right {
+	float: right;
+	width: 85%;
+}
+
+li {
+	display: block;
+	background-color: rgb(41,44,61);
+	padding: 14px;
+	font-size: 25px;
+	text-indent: 20px;
+	text-decoration: none;
+	font-family: 'Arial';
+	color: rgb(12,206,180);
+}

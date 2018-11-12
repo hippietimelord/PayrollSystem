@@ -1,0 +1,23 @@
+nav {
+	background-color: rgb(41,44,61);
+	height: 100%;
+	position: fixed;
+	overflow: auto;
+}
+
+nav a {
+	display: block;
+	color: rgb(223,221,224);
+	font-family: 'Arial';
+	font-size: 17px;
+	text-decoration: none;
+	padding: 8px;
+}
+
+nav a:hover:not(.active) {
+	background-color: rgb(12,206,180);
+}
+
+.active {
+	background-color: rgb(12,206,180);
+}
